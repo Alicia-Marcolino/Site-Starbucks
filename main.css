@@ -1,0 +1,134 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.center{
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 2%;
+}
+
+header{
+    height: 200px;
+    padding: 20px 0;
+}
+
+html,body{
+    height: 100%;
+    overflow-y: hidden;
+    overflow-x: hidden;
+}
+
+.logo{
+    width: 50%;
+}
+
+.button{
+    top: -205px;
+    right: 10px;
+    padding: 4px;
+}
+
+.menu{
+    padding-top: 30px;
+    width: 50%;
+    text-align: right;
+}
+.menu a{
+    color: var(--aFontColor);
+    text-decoration: none;
+    font-weight: bold;
+    margin-right: 15px;
+}
+
+section.sobre{
+    height: calc(100% - 200px);
+    position: relative;
+}
+
+.extras{
+    position: absolute;
+    bottom: -280px;
+    right: -290px;
+    width: 810px;
+    height: 800px;
+    border-radius: 50%;
+    background-color: #017143;
+}
+
+.social-media{
+    position: absolute;
+    right: 300px;
+    top: 140px;
+}
+
+.social-media img{
+    display: block;
+    width: 20px;
+    margin: 20px 0;
+}
+
+.texto-sobre{
+    margin-top: -15px;
+}
+
+.texto-sobre h1{
+    font-size: 50px;
+}
+
+.texto-sobre button{
+    position: absolute;
+    border: none;
+    color: var(--buttonFontColor);
+    background-color: var(--buttonBg);
+    border-radius: 10%;
+    height: 20px;
+    width: 80px;
+    margin-top: 10px;
+    cursor: pointer;
+
+}
+
+body {
+    font-family: monospace;
+    }
+
+.button {
+    color: var(--buttonFontColor);
+    background-color: var(--buttonBg);
+    }
+    
+.light-theme {
+    --bg:var(--white);
+    --fontColor:var(--black);
+    --buttonBg:var(--black);
+    --buttonFontColor:var(--white);
+    }
+    
+    :root {
+        --grenn: #0eee0eea;
+        --white: #ffffff;
+        --black: #000000;
+        }
+    
+.dark-theme {
+    --bg:var(--black);
+    --fontColor:var(--white);
+    --buttonBg:var(--white);
+    --buttonFontColor:var(--black);
+    }
+    
+*{
+    color:var(--fontColor);
+    font-family: helvetica;
+    }
+    
+body{
+    background:var(--bg);
+}
+ 
